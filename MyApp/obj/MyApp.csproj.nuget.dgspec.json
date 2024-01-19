@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj": {}
+    "C:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj": {
+    "C:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj",
+        "projectUniqueName": "C:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "c:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj",
+        "projectPath": "C:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\MyApp.csproj",
         "packagesPath": "C:\\Users\\maico\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\obj\\",
+        "outputPath": "C:\\Users\\maico\\Documents\\GitHub\\Fundamentos-do-CSharp\\MyApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maico\\AppData\\Roaming\\NuGet\\NuGet.Config"

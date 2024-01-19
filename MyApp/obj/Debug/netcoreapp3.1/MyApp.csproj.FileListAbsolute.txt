@@ -1,0 +1,14 @@
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\bin\Debug\netcoreapp3.1\MyApp.exe
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\bin\Debug\netcoreapp3.1\MyApp.deps.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\bin\Debug\netcoreapp3.1\MyApp.runtimeconfig.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\bin\Debug\netcoreapp3.1\MyApp.runtimeconfig.dev.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\bin\Debug\netcoreapp3.1\MyApp.dll
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\bin\Debug\netcoreapp3.1\MyApp.pdb
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.AssemblyInfoInputs.cache
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.AssemblyInfo.cs
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.sourcelink.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.dll
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.pdb
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\MyApp\obj\Debug\netcoreapp3.1\MyApp.genruntimeconfig.cache
