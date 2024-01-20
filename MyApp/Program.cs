@@ -156,4 +156,63 @@ else
 }
 
 
-//Estrutura Condicional: Switch
+//Estrutura Condicional: Switch - Utilizado quando temos muitas decisões, Executado em cascata, devemos parar manualmente a execução com o comando break, possui uma execução padrão chamada default
+int valor10 = 1;
+switch (valor10)
+{
+    case 1: Console.WriteLine("1");
+        break;
+    case 2: Console.WriteLine("2");
+        break;
+    case 3: Console.WriteLine("3");
+        break;
+    default: Console.WriteLine("4"); //Se não for 1,2 ou 3
+        break;
+}
+
+string nomes = "maicon";
+switch (nomes)
+{
+    case "mirela": Console.WriteLine("errou");
+        break;
+    case "maicon": Console.WriteLine("acertou");
+        break;
+    case "izabel": Console.WriteLine("errou");
+        break;
+    default: Console.WriteLine("errou tudo!"); //Se não for nenhum nome dos que estão nos cases.
+        break;
+}
+
+//o default nunca vai ser executado pois BOOL só retorna true ou false, porém se usarmos o bool?(tipo nullo), pode ser true, false ou nulo.
+bool? condicao = true;
+switch (condicao)
+{
+    case true: Console.WriteLine("Verdadeiro");
+        break;
+    case false: Console.WriteLine("False");
+        break;
+    default: Console.WriteLine("Nulo");
+        break;
+}
+
+
+//Laço de repetição: FOR - Tradução "para", ou seja, para cada item em um valor... Executa uma determinada ação várias vezes, definido pela palavra for, exige 3 parâmetros CONTADOR CONDIÇÃO INCREMENTO
+//Poderia ser int ou qualquer outro no lugar de var
+//Conta de 0 a 5
+for (var i = 0; i <= 5; i++){ 
+    Console.WriteLine(i);
+}
+//Conta de 1 a 5
+for (var i = 1; i <= 5; i++){ 
+    Console.WriteLine(i);
+}
+//Conta de 0 a 4
+for (var i = 0; i < 5; i++){ 
+    Console.WriteLine(i);
+}
+//Conta de 5 a 0
+for (var i = 5; i >= 0; i--){ 
+    Console.WriteLine(i);
+}
+
+//Laço de repetição: WHILE
