@@ -160,26 +160,34 @@ else
 int valor10 = 1;
 switch (valor10)
 {
-    case 1: Console.WriteLine("1");
+    case 1:
+        Console.WriteLine("1");
         break;
-    case 2: Console.WriteLine("2");
+    case 2:
+        Console.WriteLine("2");
         break;
-    case 3: Console.WriteLine("3");
+    case 3:
+        Console.WriteLine("3");
         break;
-    default: Console.WriteLine("4"); //Se não for 1,2 ou 3
+    default:
+        Console.WriteLine("4"); //Se não for 1,2 ou 3
         break;
 }
 
 string nomes = "maicon";
 switch (nomes)
 {
-    case "mirela": Console.WriteLine("errou");
+    case "mirela":
+        Console.WriteLine("errou");
         break;
-    case "maicon": Console.WriteLine("acertou");
+    case "maicon":
+        Console.WriteLine("acertou");
         break;
-    case "izabel": Console.WriteLine("errou");
+    case "izabel":
+        Console.WriteLine("errou");
         break;
-    default: Console.WriteLine("errou tudo!"); //Se não for nenhum nome dos que estão nos cases.
+    default:
+        Console.WriteLine("errou tudo!"); //Se não for nenhum nome dos que estão nos cases.
         break;
 }
 
@@ -187,32 +195,65 @@ switch (nomes)
 bool? condicao = true;
 switch (condicao)
 {
-    case true: Console.WriteLine("Verdadeiro");
+    case true:
+        Console.WriteLine("Verdadeiro");
         break;
-    case false: Console.WriteLine("False");
+    case false:
+        Console.WriteLine("False");
         break;
-    default: Console.WriteLine("Nulo");
+    default:
+        Console.WriteLine("Nulo");
         break;
 }
 
 
-//Laço de repetição: FOR - Tradução "para", ou seja, para cada item em um valor... Executa uma determinada ação várias vezes, definido pela palavra for, exige 3 parâmetros CONTADOR CONDIÇÃO INCREMENTO
+//Laço de repetição: for - Tradução "para", ou seja, para cada item em um valor... Executa uma determinada ação várias vezes, definido pela palavra for, exige 3 parâmetros CONTADOR CONDIÇÃO INCREMENTO
 //Poderia ser int ou qualquer outro no lugar de var
 //Conta de 0 a 5
-for (var i = 0; i <= 5; i++){ 
+for (var i = 0; i <= 5; i++)
+{
     Console.WriteLine(i);
 }
 //Conta de 1 a 5
-for (var i = 1; i <= 5; i++){ 
+for (var i = 1; i <= 5; i++)
+{
     Console.WriteLine(i);
 }
 //Conta de 0 a 4
-for (var i = 0; i < 5; i++){ 
+for (var i = 0; i < 5; i++)
+{
     Console.WriteLine(i);
 }
 //Conta de 5 a 0
-for (var i = 5; i >= 0; i--){ 
+for (var i = 5; i >= 0; i--)
+{
     Console.WriteLine(i);
 }
 
-//Laço de repetição: WHILE
+//Laço de repetição: while = Tradução "Enquanto", ou seja, enquanto uma condição for verdadeira... Exige apenas uma condição, checa a condição ANTES de executar.
+var valor9 = 0;
+
+//Conta do 0 a 5 e Exibe de 0 a 5 na tela
+while (valor9 <= 5)
+{
+    Console.WriteLine(valor9);
+    valor9++;
+}
+
+//Loop Infinito
+/*
+while (true)
+{
+    valor9++;
+    Console.WriteLine(valor9);
+}
+*/
+
+//Laço de repetição: do/while - Tradução "Faça", ou seja, realiza uma ação enquanto... Exige apenas uma condição do while, checa a condição DEPOIS de executar.
+
+var valor110 = 0;
+do 
+{
+    Console.WriteLine("Teste");
+    valor110++;
+} while (valor110 < 5);
