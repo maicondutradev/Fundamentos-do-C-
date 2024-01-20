@@ -61,6 +61,43 @@ namespace MyApp
             object quantidade; //Será do tipo object
             quantidade = 30;
             object nome1 = "maicon"; //Será do tipo object
+
+
+            //NULL - Valores nulos  |  usa-se interrogação na frente
+            int? numeros = null;
+            Console.WriteLine(numeros);
+
+            int? idades = 0;
+            Console.WriteLine(idades);
+            idades = null;
+            Console.WriteLine(idades);
+            idades = 24;
+            Console.WriteLine(idades);
+
+
+            //Conversão Implícita - Trasnformando um dado do tipo x para tipo y.
+            //A conversão ocorre pois um número real pode receber um número inteiro, porém ao ccontrario nao funciona
+            float valor = 25.8f;
+            int outro = 25;
+            outro = valor;//Não funciona
+            valor = outro;//Funciona - Conversão implícita
+
+
+            //Conversão Explícita - Ocorre quando os tipos não são compatíveis.
+            int inteiro = 100;
+            uint inteiroSemSinal = (uint)inteiro;
+            
+
+            //Parse - Metodo presente em todo tipo primitivo - Usado para tentar converter um caractere ou string para um tipo qualquer, caso haja alguma incompatibilidade, gera um erro.
+            int inteiro2 = int.Parse("100");
+
+            int valor5 = 100;
+            float real = 25.5f;
+            
+
+
+            //Convert - Similiar ao parse, porém permite tentar converter vários tipos de valor (não apenas string), Devemos informar o tipo na chamada de conversão.
+            int inteiro3 = Convert.ToInt32("100");
         } 
     }
 }
