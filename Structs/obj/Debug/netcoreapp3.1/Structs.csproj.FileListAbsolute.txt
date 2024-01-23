@@ -1,0 +1,14 @@
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\bin\Debug\netcoreapp3.1\Structs.exe
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\bin\Debug\netcoreapp3.1\Structs.deps.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\bin\Debug\netcoreapp3.1\Structs.runtimeconfig.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\bin\Debug\netcoreapp3.1\Structs.runtimeconfig.dev.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\bin\Debug\netcoreapp3.1\Structs.dll
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\bin\Debug\netcoreapp3.1\Structs.pdb
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.AssemblyInfoInputs.cache
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.AssemblyInfo.cs
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.csproj.CoreCompileInputs.cache
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.sourcelink.json
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.dll
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.pdb
+C:\Users\maico\Documents\GitHub\Fundamentos-do-CSharp\Structs\obj\Debug\netcoreapp3.1\Structs.genruntimeconfig.cache
