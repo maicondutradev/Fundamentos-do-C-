@@ -6,7 +6,7 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            ComparacaoStrings();
+            ManipulandoStrings();
         }
 
         static void GuidExemplo()
@@ -81,5 +81,12 @@ namespace Strings
 
 
         }
+
+        static void ManipulandoStrings()
+        {
+            var texto = "Este texto é um teste";
+            Console.WriteLine(texto.Replace("Este", "Isto"));//Troca a string, passando o valor que deseja trocar e a sua troca - Segue o case sensitive
+        }
+
     }
 }
