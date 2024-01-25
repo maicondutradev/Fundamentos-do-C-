@@ -6,7 +6,7 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            InterpolaçãoStrings();
+            ComparacaoStrings();
         }
 
         static void GuidExemplo()
@@ -40,6 +40,33 @@ namespace Strings
             var price = 10.2;
             var texto = $"O preço do produto é {price} apenas na promoção!";
             Console.WriteLine(texto);
+
+        }
+
+        static void ComparacaoStrings()
+        {
+            /*
+                var texto = "Este texto é um teste";
+                Console.WriteLine(texto.CompareTo("Testando"));
+
+                Console.WriteLine(texto.CompareTo("testando"));
+
+                Console.WriteLine(texto.Contains("texto"));
+
+                Console.WriteLine(texto.Contains("Texto"));
+
+                Console.WriteLine(texto.Contains("Texto", StringComparison.OrdinalIgnoreCase));//Ignorando o case sensitive
+
+                Console.WriteLine(texto.StartsWith("Este"));//Verifica se a palavra inicial é a palavra escolhida
+
+                Console.WriteLine(texto.EndsWith("teste"));//Verifica se a palavra final é a palavra escolhida
+
+                Console.WriteLine(texto.Equals("Este texto é um teste"));//Verifica se o texto escolhido é igual ao texto de comparação.
+            */
+
+            var texto = "Esse texto é um teste";
+            Console.WriteLine(texto.IndexOf("é"));//Descobrir em qual indice(index) está o valor escolhido
+
 
         }
     }
