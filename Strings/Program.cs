@@ -86,6 +86,22 @@ namespace Strings
         {
             var texto = "Este texto é um teste";
             Console.WriteLine(texto.Replace("Este", "Isto"));//Troca a string, passando o valor que deseja trocar e a sua troca - Segue o case sensitive
+            Console.WriteLine(texto.Replace("e", "x"));//Troca todos os (e) por (x)
+
+            var divisao = texto.Split(" ");//Divide toda a nossa string
+            Console.WriteLine(divisao[0]);
+            Console.WriteLine(divisao[1]);
+            Console.WriteLine(divisao[2]);
+            Console.WriteLine(divisao[3]);
+
+
+            var resultado = texto.Substring(5, 5);//Pega os valores que você desejar - nesse exp = Pega a partir do index (5) os proximos (5) valores.
+            Console.WriteLine(resultado);
+
+            var resultado2 = texto.Substring(5, texto.LastIndexOf("o"));//Pega a partir do index (5) e vai até o ultimo (o) que aparecer na string
+            Console.WriteLine(resultado2);
+
+            Console.WriteLine(texto.Trim());//Remove os espaços do começo e do fim - Os do meio não são afetados
         }
 
     }
