@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Strings
 {
@@ -6,7 +7,7 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            ManipulandoStrings();
+            StringBuilder();
         }
 
         static void GuidExemplo()
@@ -102,6 +103,19 @@ namespace Strings
             Console.WriteLine(resultado2);
 
             Console.WriteLine(texto.Trim());//Remove os espaços do começo e do fim - Os do meio não são afetados
+        }
+
+        static void StringBuilder()
+        {
+            var texto = new StringBuilder();
+            texto.Append("Este texto é um teste");
+            texto.Append("Este  é um teste");
+            texto.Append("Este texto é um ");
+            texto.Append("texto é um teste");
+
+            texto.ToString();
+            Console.WriteLine(texto);
+
         }
 
     }
