@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Moedas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19950bf3c3bd550b9de88089df3f2b263cdda0a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98edb4cf2ccbfeae7db9361164455f2409f2d759")]
 [assembly: System.Reflection.AssemblyProductAttribute("Moedas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Moedas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
