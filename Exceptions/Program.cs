@@ -10,12 +10,12 @@ namespace Exceptions
 
             try
             {
-                /*
+
                 for (var index = 0; index < 10; index++)
                 {
                     Console.WriteLine(arr[index]);
                 }
-                */
+
 
                 Cadastrar("");
             }
@@ -38,6 +38,10 @@ namespace Exceptions
                 Console.WriteLine(ex.Message);
 
                 Console.WriteLine("Ops, algo deu errado!");
+            }
+            finally
+            {
+                Console.WriteLine("Chegou ao fim!");
             }
         }
 
